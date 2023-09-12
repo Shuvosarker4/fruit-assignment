@@ -18,22 +18,66 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'primary-color': '#F85559',
               }
             }
           }
         }
       </script>
+      <!-- css style -->
+      <style>
+        .font{
+            font-family: 'Lato', sans-serif;
+        }
+      </style>
 
 </head>
-<body class="font-family: 'Lato', sans-serif;">
+<body class="font">
     <header>
-
+      <!-- navbar -->
+       <nav class="w-3/4 mx-auto ">
+        <div class="navbar md:bg-primary-color lg:bg-primary-color px-8 py-2 rounded-full">
+          <div class="navbar-start hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 font-medium text-white">
+              <li><a href="">Home</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Shop</a></li>
+              <li><a href="">All Fruits</a></li>
+            </ul>
+          </div>
+          <div class="navbar-center gap-2">
+            <div>
+              <img src="./images/logo.png" alt="">
+            </div>
+            <div>
+              <h1 class="text-4xl font-bold md:text-white lg:text-white"><a href="">Fruit Burst</a></h1>
+            </div>
+          </div>
+          <div class="navbar-end">
+            <div class="invisible md:visible lg:visible">
+              <input class="p-3 text-center outline-none rounded-full" type="text" placeholder="search here">
+            </div>
+          </div>
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a href="">Home</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Shop</a></li>
+              <li><a href="">All Fruits</a></li>
+            </ul>
+          </div>
+        </div>
+       </nav>
+       <!-- slider -->
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
     
 </body>
