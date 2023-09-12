@@ -56,10 +56,13 @@
               <h1 class="text-4xl font-bold md:text-white lg:text-white"><a href="">Fruit Burst</a></h1>
             </div>
           </div>
-          <div class="navbar-end">
+          <div class="navbar-end relative">
             <div class="invisible md:visible lg:visible">
-              <input class="p-3 text-center outline-none rounded-full" type="text" placeholder="search here">
+              <input class="p-3 text-center outline-none rounded-full" type="text" placeholder="search here"> 
             </div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 invisible md:visible lg:visible cursor-pointer absolute right-2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>
           </div>
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -76,7 +79,7 @@
        </nav>
 
        <!-- slider -->
-       <div class="carousel w-[520px] md:w-3/4 lg:w-3/4 mx-auto my-4">
+       <div class="carousel w-[420px] md:w-3/4 lg:w-3/4 mx-auto my-4">
         <!-- slide one  -->
         <div id="slide1" class="carousel-item relative w-full h-[540px]">
           <div class="hero" style="background-image: url(./images/banner1.png);">
@@ -469,7 +472,7 @@
       </section>
 
       <!-- Team Section -->
-      <section>
+      <section class="my-11">
       <div class="">
         <div id="slide1" class="carousel-item relative w-full h-full md:h-[540px] lg:h-[540px]">
           <div class="hero bg-cover" style="background-image: url(./images/banner1.png);">
